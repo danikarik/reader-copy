@@ -20,7 +20,7 @@ func doSomeStuff(pp ...process) error {
 			return err
 		}
 
-		fmt.Println("%s -> %v", p.Name, string(content))
+		fmt.Printf("%s -> %v", p.Name, string(content))
 	}
 
 	return nil
